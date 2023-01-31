@@ -1,0 +1,35 @@
+.portifolio {
+    display: flex;
+    flex-direction: column;
+}
+
+.portifolio__titulo {
+    font-size: 1.6em;
+    font-weight: 500;
+    color: var(--cinza-escuro);
+    border-left: 6px solid var(--cinza-escuro);
+    padding-left: .3em;
+}
+
+.portifolio__botao {
+    margin: 1em;
+    padding: 2em;
+    border: 1px solid var(--azul-borda);
+    border-radius: 30px;
+    text-decoration: none;
+    color: var(--branco);
+    font-size: 28px;
+    background: var(--azul-borda);
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+}
+
+@media (min-width:1024px) {
+    .portifolio__botao {
+        align-items: center;
+        margin: 2em 10em 0 4em;
+        padding: 1.2em;
+        background: var(--azul-borda);
+    }
+}

@@ -1,0 +1,55 @@
+.contatos {
+    padding-left: 1em;
+}
+
+.titulo  {
+    font-size: 1.6em;
+    font-weight: 500;
+    color: var(--dourado);
+    border-left: 6px solid var(--dourado);
+    padding-left: .3em;
+}
+
+.contato__titulo {
+    font-size: 1.4em;
+    font-weight: 600;
+    margin: 1.5em 0 1em;
+}
+
+.contato__item {
+    display: flex;
+    align-items: center;
+}
+
+.contato__item-imagem {
+    width: 2em;
+    margin-right: 2em;
+}
+
+.contato__item-texto {
+    font-size: 1.4em;
+}
+
+.contato__titulo--linkedin {
+    text-align: center;
+    padding-right: 1em ;
+}
+
+.contato__botao {
+    margin: .2em 1em 0 1em;
+    padding: 2em;
+    border: 1px solid var(--azul-borda);
+    border-radius: 30px;
+    text-decoration: none;
+    color: var(--branco);
+    font-size: 28px;
+    background: var(--azul-borda);
+    font-weight: 600;
+    text-align: center;
+}
+
+@media (min-width:1024px) {
+    .contato {
+        display: none;
+    }
+}

@@ -1,0 +1,84 @@
+.perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.perfil__nome {
+    margin-top: 2em;
+    font-weight: 600;
+    font-size: 1.8em;
+}
+
+.perfil__foto {
+    margin: 4em 0;
+    border-radius: 100%;
+    width: 10rem;
+}
+
+.perfil__principal {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.perfil__texto, .perfil__texto--bem-vindo, .perfil__contato, .perfil__email {
+    display: none;
+}
+
+@media (min-width: 1024px) {
+    .perfil {
+        background: var(--azul-degrade);
+        width: 20vw;
+    }
+
+    .perfil__nome {
+        margin-top: .6em;
+        font-size: 1.6em;
+        text-align: center;
+    }
+
+    .perfil__foto {
+        margin-top: 1em;
+        width:8em;
+        margin-bottom: 0;
+    }
+
+    .perfil__texto {
+        display: block;
+        margin: 1.5em .6em;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 100;
+    }
+
+    .perfil__texto--bem-vindo {
+        display: block;
+        font-weight: 600;
+        margin-top: 2.6em;
+    }
+
+    .perfil__contato {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .perfil__logo {
+        margin-top: 1em;
+        padding: 1em;
+        width: 1.5em;
+        cursor: pointer;
+    }
+
+    .perfil__email {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        margin-top: 3em;
+        border-top: 1px solid var(--cinza-escuro);
+    }
+
+    .perfil__email--logo {
+        width: 1.5em;
+    }
+}
